@@ -8,17 +8,12 @@
 
 using namespace std;
 
-int main()
-
-{
- double x; 
- double z1; 
- double z2;
+ z2;
  
  cout << "x = "; cin >> x;
  
- z1 = ((sin(2*x))+(sin(5*x))-(sin(3*x)))/((cos(x))+1-(pow(sin(2*x),2)*2*x));
- 
+ z1 = (sin(2*x)+sin(5*x)-sin(3*x))/(cos(x)+1-pow(sin(2*x),2)*2);
+ z2 = 2*sin(x);
 
  cout << "z1 = " << z1 << endl;
  cout << "z2 = " << z2 << endl;
